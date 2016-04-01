@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="70" height="15" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Tileset" tilewidth="16" tileheight="16" tilecount="6" columns="2">
+  <image source="cuadros.png" width="32" height="48"/>
+ </tileset>
+ <tileset firstgid="7" name="tileSet" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="tileSet.png" width="256" height="256"/>
+ </tileset>
+ <layer name="walls" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0EEKwCAMRNEp5v5ndtNVEDVNY6H8B7MRMXEkAAAAAFl2Z3X2hlbw5mzW03mmeS/Zbvxeoz0rumouEaa9XjLdVPRyHU50dmRff+erP/65lw4gngDm
+  </data>
+ </layer>
+ <layer name="coins" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzbERAAAEA0CN/Ve2ACq6/7sUUkQEAACTbHK1u91Td/X7axsACmrfADM=
+  </data>
+ </layer>
+ <layer name="indestructibles" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw7ENAAAMAiDj/0d38ISukNAkVV8BAACYA06oAaU=
+  </data>
+ </layer>
+ <layer name="bluecoins" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLDr38Oefi+CwgZLAACAS6YCfLNALwHw
+  </data>
+ </layer>
+ <layer name="redcoins" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7D514FQ3ingIG3SBAAA+GQqwLUFtuAB7Q==
+  </data>
+ </layer>
+ <layer name="greencoins" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7D5t4FR3ingIG3SBAAAuDIV4KMFaHMB6g==
+  </data>
+ </layer>
+ <layer name="violetcoins" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLDrH8h8/g/BAhssAQAALlMB+C3iygLZ
+  </data>
+ </layer>
+ <layer name="estrellita" width="70" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7D594M/3gngo02aAADAP1MBuLNvMQIg
+  </data>
+ </layer>
+</map>
